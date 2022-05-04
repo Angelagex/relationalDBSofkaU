@@ -35,7 +35,7 @@ public class Controller {
     public void deletePost(@RequestBody Post post){
         service.deletePost(post);
     }
-
+ 
     @DeleteMapping("delete/comment")
     public void deleteComment(@RequestBody Comment comment){
         service.deleteComment(comment);
